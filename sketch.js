@@ -150,7 +150,7 @@ function mouseReleased(){
 }
 
 async function getBackground() {
-  var answer = await fetch('http://worldtimeapi.org/api/timezone/Asia/Kolkata');
+  var answer = await fetch('https://worldtimeapi.org/api/timezone/Asia/Kolkata');
   var answerJSON = await answer.json();
 
   //console.log(answerJSON.datetime);
